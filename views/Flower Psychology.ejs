@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flower Psychology</title>
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+     <%- include('partials/header') %>
+     <main>
+          <div class="fs-content">
+            <h2>Flower Psychology: The Real Reasons We Love to Give and Receive Them</h2>
+            <p>We love giving flowers. In every culture, in every country, and in every generation, we have always done so, as far back as scientists can trace. While ancient civilizations might not have been so concerned with anniversaries and holidays, they still began cultivating flower crops thousands of years ago. Some scientists have tried to argue that our present adoration for floral gifts is purely societal- we love them because we&apos;re supposed to, but those who focus behavioural psychology have come to realize there&apos;s something much more going on when flowers are present.</p>
+          </div>
+
+          <div class="fs-content">
+            <h2>Flower Psychology: The Real Reasons We Love to Give and Receive Them</h2>
+            <p>We love giving flowers. In every culture, in every country, and in every generation, we have always done so, as far back as scientists can trace. While ancient civilizations might not have been so concerned with anniversaries and holidays, they still began cultivating flower crops thousands of years ago. Some scientists have tried to argue that our present adoration for floral gifts is purely societal- we love them because we&apos;re supposed to, but those who focus behavioural psychology have come to realize there&apos;s something much more going on when flowers are present.</p>
+          </div>
+
+          <div class="fs-content">
+            <h2>History of Flowers in Psychology</h2>
+            <p>The use of flowers for psychological healing and well-being dates back centuries, with ancient civilizations recognizing the therapeutic properties of flowers and plants. In the 18th and 19th centuries, pioneers in psychology and psychiatry, such as Carl Jung and Sigmund Freud, explored the symbolic significance of flowers in dreams, art, and cultural rituals. They believed that flowers held deep symbolic meanings and could provide insights into the human psyche.</p>
+
+            <p>In the early 20th century, psychologists began to conduct empirical research on the psychological effects of flowers, leading to the emergence of flower therapy as a recognized form of complementary medicine. Today, flowers are widely used in various therapeutic settings, including hospitals, nursing homes, and mental health facilities, to promote relaxation, reduce stress, and enhance emotional well-being.</p>
+          </div>
+              <h2>Best Flowers to Improve Mental Health</h2>
+          <div class="flower-container">
+            <% for(let i=0;i<flowers.length;i++) { %>
+              <div class="flower-card">
+                <h3 class="card-title"><%=flowers[i].title%></h3>
+                <img src="<%=flowers[i].image%>" alt="<%=flowers[i].title%>">
+                <p class="card-description"><%=flowers[i].description%></p>
+              </div>
+              <% } %>
+          </div>
+     </main>
+     <%- include('partials/footer') %>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Lavender",
+    "image": "/images/lavender.webp",
+    "description": "Renowned for its calming properties, lavender is often used to promote relaxation, reduce anxiety, and improve sleep quality. Its soothing fragrance has been shown to lower heart rate and blood pressure, making it an ideal choice for stress relief and emotional balance."
+  },
+  {
+    "title": "Sunflowers",
+    "image": "/images/sunflowers.webp",
+    "description": "With their cheerful demeanor and sunny disposition, sunflowers symbolize optimism, happiness, and vitality. Gazing upon a bouquet of sunflowers can lift the spirits, boost mood, and instill a sense of positivity and hope."
+  },
+  {
+    "title": "Roses",
+    "image": "/images/roses.webp",
+    "description": "A timeless symbol of love and beauty, roses are also known for their mood-enhancing properties. The sight and scent of roses can evoke feelings of joy, affection, and gratitude, fostering emotional connections and enhancing overall well-being."
+  },
+  {
+    "title": "Chrysanthemums",
+    "image": "/images/chrysanthemums.webp",
+    "description": "In many cultures, chrysanthemums are associated with longevity, joy, and prosperity. These resilient flowers are believed to ward off negative energy and promote emotional resilience, making them a popular choice for uplifting the spirits during challenging times."
+  },
+  {
+    "title": "Gerbera Daisies",
+    "image": "/images/gerbera daisies.webp",
+    "description": "With their vibrant hues and whimsical appearance, gerbera daisies are sure to bring a smile to anyone's face. These cheerful flowers are celebrated not just for their striking beauty but also for their uplifting presence. The bright petals, ranging from sunny yellows to deep reds and soft pinks, radiate warmth and positivity, instantly catching the eye and soothing the spirit. Beyond their visual charm, gerbera daisies are known to brighten moods, instill a sense of joy, and foster a positive outlook on life. Gifting or placing these blooms in a space can transform ordinary surroundings into vibrant, lively corners, reminding us of the simple pleasures and the beauty found in everyday moments. Their delicate yet resilient nature symbolizes innocence, purity, and the happiness that comes from embracing life’s colorful moments."
+  },
+  {
+    "title": "Peonies",
+    "image": "/images/peonies.webp",
+    "description": "Symbolizing prosperity, good fortune, and compassion, peonies are beloved for their lush blooms and delicate fragrance. These elegant flowers evoke a sense of serenity and contentment, making them ideal for promoting inner peace and emotional well-being."
+  }
+]

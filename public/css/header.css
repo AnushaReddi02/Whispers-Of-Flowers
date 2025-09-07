@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* Make the page take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Use flexbox on body to push footer down */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF0F5;
+   overflow-y: auto; /* enable vertical scroll */
+}
+
+/* Main content grows to fill space */
+main {
+  flex: 1;
+}
+
+.title{
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  color:  #b30059;
+}
+
+.tagline {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: #C71585;
+  font-size: 1.8rem;
+}
+
+.navigation li{
+  list-style-type: none;
+  display: inline;
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+
+a{
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  color: #e0569b;
+}
+
+a::after{
+    position: absolute;
+    content: '';
+    left: 0;  /* underline starts at beginning of word*/
+    bottom: -3px;   /* underline starts at 3px below the word*/
+    width: 0;    /* Before transition the underline is invisible*/
+    height: 2px;
+    background-color: #FFD700; /* color of underline*/
+    transition: width 0.4s ease;
+}
+a:hover::after {
+  width: 100%;
+}
+
+.header-container{
+  background-color: #FAE6F0;
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+   flex-direction: column;   /* stack title-section, tagline, and navigation vertically */
+   height: 250px;              /* fixed header height */
+   margin-top: 30px;
+}
+
+.title-section h1,
+.title-section .tagline {
+  margin: 0;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;          /* horizontal menu */
+  align-self: flex-end;
+  padding: 10px;             /* remove default ul padding */
+  margin: 30px;
+}
+
+footer{
+  background-color: #8B004B;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

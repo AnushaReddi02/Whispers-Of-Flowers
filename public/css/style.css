@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+body{
+  padding: 0;
+  margin: 0;
+  overflow-y: auto; /* enable vertical scroll */
+}
+.index-title{
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+
+  background-image: url('/images/image1.jpg'); 
+  background-size: cover;
+  background-position: center;   /*ensures the middle of the image stays visible and looks balanced.*/
+  height: 350px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-content,.fs-content,.contact-content{
+  padding: 20px;
+  margin: 10px;
+}
+
+h2{
+  font-size: 2.8rem;
+  color: #C71585;
+}
+
+p{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #C71585;
+}
+
+.flower-container {
+    display: flex;
+    flex-wrap: wrap;      /* allow multiple lines if needed */
+    justify-content: center; /* center cards horizontally */
+    gap: 20px;            /* space between cards */
+}
+
+
+.flower-card {
+    width: 600px; /* or any suitable width */
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #C71585;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+
+
+.flower-card img {
+  width: 100%;      /* fills the card’s width */
+  height: auto;     /* maintains aspect ratio */
+  border-radius: 5px;
+}
+
+.flower-card:hover{
+    transform: translateY(-10px); /* moves card up */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
+    transition: all 0.3s ease; /* smooth animation */
+}
+
+.about-main-content{
+    padding: 20px;
+    margin: 10px auto;
+    border: 2px solid #C71585;
+    width: 55%;
+}
+
+.about-main-content h2,p{
+  text-align: center;
+}
+
+.contact-content li{
+   color: #C71585;
+}
