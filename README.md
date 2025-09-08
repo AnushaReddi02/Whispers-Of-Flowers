@@ -15,15 +15,6 @@ The website includes the following pages:
 ### Home Page
 ![Home Page](screenshots/Home.png)
 
-### Flower Psychology Page
-![Flower Psychology Page](screenshots/FlowerPsychology.png)
-
-### About Page
-![About Page](screenshots/About.png)
-
-### Contact Page
-![Contact Page](screenshots/Contact.png)
-
 
 ---
 
